@@ -39,10 +39,7 @@ for (let index = 0; index < team.length; index++) {
     const person = team[index];
     document.querySelector('.team').insertAdjacentHTML('beforeend', `<div>${person.name}</div>` )
     document.querySelector('.team').insertAdjacentHTML('beforeend', `<div>${person.role}</div>`)
-    document.querySelector('.team').insertAdjacentHTML('beforeend', `<div>${person.image}</div>`)
-
-
-
+    document.querySelector('.team').insertAdjacentHTML('beforeend', `<img src="./img/${person.image}"></img>`)
 }
 
 /* console.log(team[0].name);
