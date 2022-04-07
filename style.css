@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person{
+    background-color: white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.person>img{
+    max-width: 100%;
+}
+
+.person>div{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0.5rem;
+}
+
+.custom_padding{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#exampleInputEmail1{
+    width: 500px;
+}
